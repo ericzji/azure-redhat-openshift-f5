@@ -35,7 +35,7 @@ Azure CLI:
 Instructions for deploying this demo environment with F5 via ARM template are below:
 1. **Deploy ARM template** by clicking the Deploy button below.  
 
-  [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmikeoleary%2Fazure-redhat-openshift-f5%2Fmain%2Fdeploy.json)  
+  [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fericzji%2Fazure-redhat-openshift-f5%2Fmain%2Fdeploy.json)  
   
 2. **Create or edit a public DNS record** so that the Custom DNS Record you entered into the deployment points to the IP address value in the output called `publicExternalLoadBalancerAddress`.
 3. **Optionally, further configure** F5 and OpenShift environment by accessing the environment via the URL's in the deployment outputs.
@@ -54,4 +54,4 @@ I do not represent F5 and the code in this repo is my own, but I do work for F5.
 To that end, this repo has removed, where possible, words such as "master" and "blacklist" and replaced them with "main" (eg, the default git branch), or "primary" (eg, the subnet name), or "denylist" (not used in this repo at the time of this writing). If you see any terms considered racially charged, please submit an issue to bring it to attention. This effort is expected to be on-going and faces some challenges (eg, hardcoded protocol terms) but over time the intent is to remove all terms that are considered racially charged. Thank you for any help in this regard.
 
 ## Support and Issues
-This repo is hosted in a personal account, and this solution is not an officially supported solution. However, please [submit an issue](https://github.com/mikeoleary/azure-redhat-openshift-f5/issues) if you find a problem or have a question. Thanks for any co-operation and support.
+This repo is hosted in a personal account, and this solution is not an officially supported solution. However, please [submit an issue](https://github.com/ericzji/azure-redhat-openshift-f5/issues) if you find a problem or have a question. Thanks for any co-operation and support.
